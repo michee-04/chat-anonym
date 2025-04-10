@@ -16,6 +16,18 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/core": ["libs/core/src"],
+      "@app/core/*": ["libs/core/src/*"],
+      "@app/journal": ["libs/journal/src"],
+      "@app/journal/*": ["libs/journal/src/*"],
+      "@app/common": ["libs/common/src"],
+      "@app/common/*": ["libs/common/src/*"],
+      "@app/user-access": ["libs/user-access/src"],
+      "@app/user-access/*": ["libs/user-access/src/*"],
+      "@app/notification": ["libs/notification/src"],
+      "@app/notification/*": ["libs/notification/src/*"]
+    }
   }
 }
